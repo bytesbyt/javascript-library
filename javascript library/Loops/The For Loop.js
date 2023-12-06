@@ -13,3 +13,38 @@ A for loop contains three expressions separated by ; inside the parentheses:
 for (let counter=5; counter <= 10; counter++ ) {
     console.log(counter);
   }
+
+  // Loop backwards from 3 to 0
+for (let counter = 3; counter >= 0; counter--){
+    console.log(counter);
+  }
+
+  //Looping through Arrays
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+
+for (let i = 0; i < vacationSpots.length; i++ ){
+  console.log('I would love to visit ' + vacationSpots[i]);
+}
+
+/*
+I would love to visit Bali
+I would love to visit Paris
+I would love to visit Tulum
+*/
+
+// Nested Loops
+// Extracting the names of the followers who exist in both lists.
+let bobsFollowers = ['Jonn', 'Sam', 'Matt', 'Tes'];
+let tinasFollowers = ['Matt', 'Lily', 'Sam'];
+let mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++ ){
+  for (let j = 0; j < tinasFollowers.length; j++ ){
+    if (bobsFollowers[i] === tinasFollowers[j]){
+      mutualFollowers.push(bobsFollowers[i])
+    }
+  }
+};
+
+console.log(mutualFollowers);
+//logs [ 'Sam', 'Matt' ]
