@@ -13,7 +13,7 @@ const alienShip = {
 /*
 With the new method syntax introduced in ES6 we can omit the colon and the function keyword.
 */
-const alienShip = {
+const alieShip = {
   invade () { 
     console.log('Hello! We have come to dominate your planet. Instead of Earth, it shall be called New Xaculon.')
   }
@@ -24,7 +24,7 @@ let retreatMessage = 'We no longer wish to conquer your planet. It is full of do
 
 // Creating an alienShip object containing a method reteat() which will log the retreat message.
 //Add another method to your object literal. This method, takeOff(), should console.log() the string 'Spim... Borp... Glix... Blastoff!'.
-let alienShip = {
+let aliensShip = {
   retreat() {
     console.log(retreatMessage)
   },
@@ -32,6 +32,7 @@ let alienShip = {
     console.log('Spim... Borp... Glix... Blastoff!')
   }
 };
+
 //Invoke your two methods: first .retreat() then .takeOff()
 alienShip.retreat();
 alienShip.takeOff();
