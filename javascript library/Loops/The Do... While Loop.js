@@ -37,11 +37,11 @@ while (true === false){
 
 //Program to simulate part of the cake-baking process.
 //Depenind on the recipe, a different number of cups of sugar is required. We have a sweet tooth, so we want to add at least one cup of sugar to the batter even if the value of cupsOfSugarNeeded is 0
-let cupsOfSugarNeeded = 2;
+let cupsOfSugarNeeded = 0;
 let cupsAdded = 0;
 
 do {
  cupsAdded++
  console.log(cupsAdded + ' cup was added.')
 } while (cupsAdded < cupsOfSugarNeeded)
-
+//logs 1 cup was added.
