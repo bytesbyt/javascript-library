@@ -9,18 +9,20 @@ let fasterShip = {
     color: 'silver'
   };
 
-/*
-Creating Object Literals
-Objects can be assigned to variables just like any JavaScript type.
-We use curly braces, {}, to designated an object literal.
-*/
+// Accessing Properties using dot notation, ..
+let ship = {
+  homePlanet: 'Earth',
+  color: 'silver',
+  'Fuel Type': 'Turbo Fuel',
+  numCrew: 5,
+  flightPath: ['Venus', 'Mars', 'Saturn']
+};
 
-let fasterShip = {
-    'Fuel Type': 'Turbo Fuel',
-    color: 'silver'
-  };
+let crewCount = spaceship.numCrew;
+let planetArray = spaceship.flightPath;
 
-  //Bracket Notation
+
+//Bracket Notation
 
 /*
 The second way to access a key's value is by using bracket notation, [ ].
