@@ -1,6 +1,6 @@
 
-let firstNumber = promt("Please enter first number: ");
-let secondNumber = promt("Please enter second number: ");
+let firstNumber = prompt("Please enter first number: ");
+let secondNumber = prompt("Please enter second number: ");
 
-document.write("<p>", firstNumber * secondNumber, "</p>");
+document.write("<p>", firstNumber, " X ", secondNumber, " = ", firstNumber * secondNumber, "</p>");
 
