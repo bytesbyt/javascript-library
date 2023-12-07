@@ -29,11 +29,16 @@ document.write("<p>", students, "</p>");
 students.shift();
 document.write("<p>", students, "</p>");
 
-
 //Arrays within Arrays
 scores = [
     [23,5,5435,345,65,57],
-    [24,656,344,45,7,5]
+    [24,656,344,45,7,5],
+    [23,5,3,45,],
+    [3,4,56,75,45],
+    [34,44,53,56,45]
 ]
 document.write("<p> Score is ", scores[0][1], "</p>");
+
+//For Loop within Array
+document 
 
