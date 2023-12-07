@@ -11,3 +11,29 @@ document.write("<p> Number of students= ", studentsCount, "</p>");
 for (let i = 0; i < students.length; i= i + 1 ){
     document.write("<p>", i, " : ", students[i], "</p>");
 }
+//Sort the array in ascending order
+document.write(students.sort());
+
+//Search for, and get the position of an element.
+document.write("<p> Index of Tes is ", students.indexOf("Tes"), "</p>");
+
+//Add elements to the end of the array?
+students.push("Tom");
+document.write("<p>", students, "</p>");
+
+//Remove elements from the end of the array
+students.pop();
+document.write("<p>", students, "</p>");
+
+//Remove from the first element of the array
+students.shift();
+document.write("<p>", students, "</p>");
+
+
+//Arrays within Arrays
+scores = [
+    [23,5,5435,345,65,57],
+    [24,656,344,45,7,5]
+]
+document.write("<p> Score is ", scores[0][1], "</p>");
+
