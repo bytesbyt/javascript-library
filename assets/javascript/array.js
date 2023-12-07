@@ -39,6 +39,4 @@ scores = [
 ]
 document.write("<p> Score is ", scores[0][1], "</p>");
 
-//For Loop within Array
-document 
 
