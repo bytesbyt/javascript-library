@@ -1,6 +1,6 @@
 let students = [ "Pebbles", "Tes", "John", "Mark", "Chris", "Elizabeth" ];
 
-function findStudent (searhForName){
+function findStudent (searchForName){
     let position = students.indexOf(searchForName);
     if ( position == -1 ){
         document.write(searchForName, " NOT found");
@@ -9,4 +9,6 @@ function findStudent (searhForName){
     }
 }
 
-findStudent ("Tes");
+findStudent ("Tes"); //Tes found
+
+findStudent ("Heidi"); //Heidi NOT found
