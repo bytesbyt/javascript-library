@@ -8,7 +8,7 @@ function printArray(myHeading){
     };
 }
 
-printArray("Oringinal Array");
+printArray("Original Array");
 students.push("Tes");
 printArray("Updated Array");
 
